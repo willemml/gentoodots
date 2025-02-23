@@ -1,0 +1,6 @@
+[[language]]
+auto-format = true
+name = "nix"
+
+[language.formatter]
+command = "/nix/store/nglc0kdnilralk8d48c1868qyqz38y2a-alejandra-3.1.0/bin/alejandra"

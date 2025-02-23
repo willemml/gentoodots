@@ -1,0 +1,24 @@
+theme = "gruvbox_dark_hard"
+[editor]
+line-number = "relative"
+true-color = true
+
+[keys.normal]
+E = "join_selections"
+I = "no_op"
+J = "move_next_long_word_end"
+K = "search_prev"
+L = "redo"
+N = "keep_selections"
+U = "insert_at_line_start"
+e = "move_line_up"
+i = "move_char_right"
+j = "move_next_word_end"
+k = "search_next"
+l = "undo"
+n = "move_line_down"
+u = "insert_mode"
+
+[keys.normal.space]
+q = ":q"
+w = ":w"

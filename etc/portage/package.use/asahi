@@ -1,0 +1,14 @@
+# Remove '-audio' before emerging a DE metapackage or WM
+# Remove 'kernel' and '-sources' if you plan to replace the
+# dist-kernel with sys-kernel/asahi-sources
+sys-apps/asahi-meta sources sound
+# required by media-libs/asahi-audio-2.5::asahi
+# required by sys-apps/asahi-meta-2-r9::asahi[audio]
+# required by asahi-meta (argument)
+>=media-video/pipewire-1.2.6 lv2 extra sound-server
+# required by sys-kernel/asahi-kernel-6.12.1_p8::asahi[initramfs]
+# required by virtual/dist-kernel-6.12.1_p8::asahi
+# required by media-libs/mesa-25.0.0_pre20241204-r2::asahi[video_cards_asahi]
+# required by sys-apps/asahi-meta-2-r9::asahi[mesa]
+# required by asahi-meta (argument)
+>=sys-kernel/installkernel-48-r1 dracut

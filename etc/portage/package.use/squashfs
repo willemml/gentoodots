@@ -1,0 +1,2 @@
+sys-fs/squashfs-tools zstd lzo lzma lz4
+sys-fs/squashfuse zstd lzo lzma lz4

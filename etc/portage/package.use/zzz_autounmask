@@ -1,0 +1,19 @@
+# required by app-emulation/libvirt-10.10.0-r1::gentoo[virt-network]
+# required by dev-python/libvirt-python-10.10.0::gentoo
+>=net-dns/dnsmasq-2.90 script
+# required by app-crypt/swtpm-0.10.0::gentoo
+# required by app-emulation/libvirt-10.10.0-r1::gentoo[qemu]
+# required by dev-python/libvirt-python-10.10.0::gentoo
+>=net-libs/gnutls-3.8.8 pkcs11 tools
+# required by app-containers/containers-common-0.60.4::gentoo
+# required by app-containers/podman-5.3.0::gentoo
+# required by app-containers/podman-compose-1.2.0::gentoo[-test]
+# required by podman-compose (argument)
+>=net-firewall/iptables-1.8.11-r1 nftables
+# required by gui-apps/swayidle-1.8.0::gentoo[elogind]
+# required by swayidle (argument)
+>=sys-auth/elogind-255.5-r1 policykit
+# required by app-emulation/virt-manager-5.0.0-r1::gentoo[gui]
+# required by @selected
+# required by @world (argument)
+>=net-misc/spice-gtk-0.42-r4 usbredir

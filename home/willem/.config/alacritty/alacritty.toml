@@ -1,0 +1,42 @@
+[colors.bright]
+black = "#5a524c"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#fbf1c7"
+yellow = "#d8a657"
+
+[colors.cursor]
+cursor = "#ddc7a1"
+text = "#202020"
+
+[colors.normal]
+black = "#202020"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#ddc7a1"
+yellow = "#d8a657"
+
+[colors.primary]
+background = "#202020"
+bright_foreground = "#fbf1c7"
+foreground = "#ddc7a1"
+
+[colors.selection]
+background = "#504945"
+text = "#ddc7a1"
+
+[font]
+size = 12
+[font.normal]
+family = "VictorMono"
+style = "Regular"
+
+[window]
+decorations = "None"
+opacity = 1.0

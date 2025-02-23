@@ -1,0 +1,7 @@
+app-misc/tmux
+app-editors/helix
+sys-apps/fd
+app-shells/zsh
+net-misc/curl
+dev-vcs/git
+sys-apps/ripgrep

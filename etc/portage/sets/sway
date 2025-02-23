@@ -1,0 +1,6 @@
+gui-apps/rofi-wayland::guru
+gui-apps/waybar
+x11-terms/alacritty
+gui-wm/sway
+gui-apps/swaylock
+
